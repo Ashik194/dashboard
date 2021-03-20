@@ -7,6 +7,25 @@
   pointer-events: none;
 }
 
+.nav_bar_wrapper a{
+  padding-left: 20px;
+}
+
+.delete{
+  background-color: red;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+.update{
+  background-color: green;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  margin-left: 10px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
